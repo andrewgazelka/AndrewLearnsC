@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int count ;
+int count;
+
 extern void write_extern();
 
-main() {
-
+main()
+{
     count = 5;
     write_extern();
 }
